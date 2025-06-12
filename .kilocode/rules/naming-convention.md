@@ -1,0 +1,15 @@
+# Naming Convention:
+- Interface names start with a capital I.
+- Attribute types end with the word Attribute.
+- Enum types use a singular noun for nonflags, and a plural noun for flags.
+- Identifiers shouldn't contain two consecutive underscore (_) characters. Those names are reserved for compiler-generated identifiers.
+- Use meaningful and descriptive names for variables, methods, and classes.
+- Prefer clarity over brevity.
+- Use PascalCase for class names and method names.
+- Use camelCase for method parameters and local variables.
+- Use PascalCase for constant names, both fields and local constants.
+- Private instance fields start with an underscore (_) and the remaining text is camelCased.
+- Classes representing commands should end with the suffix "Command".
+- Classes representing command/query handlers should end with the suffix "Handler".
+- Classes representing responses should end with the suffix "Response".
+- Data Transfer Object classes should end with the suffix "Dto".
